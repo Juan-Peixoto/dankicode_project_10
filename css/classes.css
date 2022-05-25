@@ -1,0 +1,146 @@
+/* visibility Test styles */
+
+    .test-1 {
+        background-color: blueviolet;
+        border: 1px dashed black;
+    }
+
+    .test-2 {
+        background-color: orange;
+        border: 1px solid black;
+    }
+
+/* Menu styles */
+
+    .menu {
+        top: 0;
+        position: fixed;
+    }
+
+/* Padding classes*/
+
+    .padd-5 {
+        padding: 5px;
+    }
+
+    .padd-10 {
+        padding: 10px;
+    }
+
+    .padd-l-5 {
+        padding-left: 5px;
+    }
+
+    .padd-r-5 {
+        padding-right: 5px;
+    }
+
+    .padd-l-10 {
+        padding-left: 10px;
+    }
+
+    .padd-l-10 {
+        padding-right: 10px;
+    }
+
+    .padd-lr-5 {
+        padding: 0px 5px;
+    }
+
+    .padd-lr-10 {
+        padding: 0px 10px;
+    }
+
+/* Margin classes*/
+
+    .marg-5 {
+        margin: 5px;
+    }
+
+    .marg-10 {
+        margin: 10px;
+    }
+
+    .marg-t-20 {
+        margin-top: 20px;
+    }
+
+    .marg-b-20 {
+        margin-bottom: 20px;
+    }
+
+    .marg-l-5 {
+        margin-left: 5px;
+    }
+
+    .marg-r-5 {
+        margin-right: 5px;
+    }
+
+    .marg-l-10 {
+        margin-left: 10px;
+    }
+
+    .marg-l-10 {
+        margin-right: 10px;
+    }
+
+    .marg-lr-5 {
+        margin: 0px 5px;
+    }
+
+    .marg-lr-10 {
+        margin: 0px 10px;
+    }
+
+/* Display classes*/
+
+    .flex {
+        display: flex;
+    }
+
+    .inline-block {
+        display: inline-block;
+    }
+
+    .block {
+        display: block;
+    }
+
+    .grid {
+        display: grid;
+    }
+
+/* Display classes*/
+
+    .pos-relative {
+        position: relative;
+    }
+
+    .pos-absolute {
+        position: absolute;
+    }
+
+    .pos-fixed {
+        position: fixed;
+    }
+
+/* Text Color Classes*/
+
+    .black {
+        color: black;
+    }
+
+    .white {
+        color: white;
+    }
+
+/* Background Color Classes*/
+
+    .bg-black {
+        background-color: black;
+    }
+
+    .bg-white {
+        background-color: white;
+    }

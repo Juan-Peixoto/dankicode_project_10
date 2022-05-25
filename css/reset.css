@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html, body {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
