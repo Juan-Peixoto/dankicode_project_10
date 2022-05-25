@@ -17,6 +17,35 @@
         position: fixed;
     }
 
+/* Width classes*/
+
+    .w100 {
+        width: 100%;
+    }
+
+    .w-fit {
+        width: fit-content;
+    }
+
+/* Height classes*/
+
+    .h-500 {
+        height: 500px;
+    }
+
+    .h-300 {
+        height: 300px;
+    }
+
+    .h100 {
+        height: 100%;
+    }
+
+    .h-fit {
+        height: fit-content;
+    }
+
+
 /* Padding classes*/
 
     .padd-5 {
@@ -99,6 +128,18 @@
         display: flex;
     }
 
+    .flex-column {
+        flex-direction: column;
+    }
+
+    .flex-align-center {
+        align-items: center;
+    }
+    
+    .flex-justify-center {
+        justify-content: center;
+    }
+
     .inline-block {
         display: inline-block;
     }
@@ -111,7 +152,7 @@
         display: grid;
     }
 
-/* Display classes*/
+/* Position classes*/
 
     .pos-relative {
         position: relative;
@@ -123,6 +164,40 @@
 
     .pos-fixed {
         position: fixed;
+    }
+
+    .float-left {
+        float: left;
+    }
+
+    .float-right {
+        float: left;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+/* Text Classes*/
+
+    .font-20 {
+        font-size: 20px;
+    }
+
+    .font-40 {
+        font-size: 40px;
+    }
+
+    .font-12em {
+        font-size: 1.2em;
+    }
+
+    .font-15em {
+        font-size: 1.5em;
+    }
+
+    .font-2em {
+        font-size: 2em;
     }
 
 /* Text Color Classes*/
