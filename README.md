@@ -1,5 +1,11 @@
-# FrontEnd Initial Base 
+# Dankicode project 10
 
-## _Simple Structure with_:
+## A **Dankicode** project of the **FrontEnd** course.
 
-**HTML**, Pure **CSS** and **JavaScript**!
+### _Simple Web Page with_:
+**HTML**, **CSS** and **JavaScript**!
+
+### _Includes_:
+**Google Fonts** and **Font awesome**.
+
+No frameworks and libraries.
