@@ -1,7 +1,12 @@
 /* Desktop menu style*/
 
     nav.desktop_menu {
+        border-bottom: 2px solid rgba(255, 255, 255, 0.493);
+    }
 
+    nav.desktop_menu ul li:nth-of-type(4) {
+        border: 1px solid white;
+        border-radius: 30px;
     }
 
 /* Mobile menu style*/
@@ -13,7 +18,16 @@
 /* Header style*/
 
     header {
+        z-index: 1;
+        height: 522px;
+        background-image: url(../images/bg.jpg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
 
+    header form h1 {
+        max-width: 500px;
     }
 
 /* Main style*/

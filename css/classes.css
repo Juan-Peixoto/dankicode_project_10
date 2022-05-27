@@ -14,8 +14,42 @@
 
     .menu {
         top: 0;
-        position: fixed;
+        position: absolute;
+        z-index: 2;
     }
+
+    .mobile_menu {
+        display: none;
+    }
+
+/* Width classes*/
+
+    .w100 {
+        width: 100%;
+    }
+
+    .w-fit {
+        width: fit-content;
+    }
+
+/* Height classes*/
+
+    .h-500 {
+        height: 500px;
+    }
+
+    .h-300 {
+        height: 300px;
+    }
+
+    .h100 {
+        height: 100%;
+    }
+
+    .h-fit {
+        height: fit-content;
+    }
+
 
 /* Padding classes*/
 
@@ -25,6 +59,10 @@
 
     .padd-10 {
         padding: 10px;
+    }
+
+    .padd-30 {
+        padding: 30px;
     }
 
     .padd-l-5 {
@@ -49,6 +87,10 @@
 
     .padd-lr-10 {
         padding: 0px 10px;
+    }
+
+    .padd-lr-20 {
+        padding: 0px 20px;
     }
 
 /* Margin classes*/
@@ -93,10 +135,30 @@
         margin: 0px 10px;
     }
 
+    .marg-lr-20 {
+        margin: 0px 20px;
+    }
+
 /* Display classes*/
 
     .flex {
         display: flex;
+    }
+
+    .flex-column {
+        flex-direction: column;
+    }
+
+    .flex-align-center {
+        align-items: center;
+    }
+    
+    .flex-justify-center {
+        justify-content: center;
+    }
+
+    .flex-space-between {
+        justify-content: space-between;
     }
 
     .inline-block {
@@ -111,7 +173,7 @@
         display: grid;
     }
 
-/* Display classes*/
+/* Position classes*/
 
     .pos-relative {
         position: relative;
@@ -123,6 +185,40 @@
 
     .pos-fixed {
         position: fixed;
+    }
+
+    .float-left {
+        float: left;
+    }
+
+    .float-right {
+        float: left;
+    }
+
+    .clear {
+        clear: both;
+    }
+
+/* Text Classes*/
+
+    .font-20 {
+        font-size: 20px;
+    }
+
+    .font-40 {
+        font-size: 45px;
+    }
+
+    .font-12em {
+        font-size: 1.2em;
+    }
+
+    .font-15em {
+        font-size: 1.5em;
+    }
+
+    .font-2em {
+        font-size: 2em;
     }
 
 /* Text Color Classes*/
@@ -144,3 +240,5 @@
     .bg-white {
         background-color: white;
     }
+
+/* Extra Classes*/
