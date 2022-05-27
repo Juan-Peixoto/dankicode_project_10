@@ -1,12 +1,12 @@
 /* Desktop menu style*/
 
-    nav.desktop_menu {
-        border-bottom: 2px solid rgba(255, 255, 255, 0.493);
+    nav.desktop_menu ul {
+        right: 50px;
     }
 
     nav.desktop_menu ul li:nth-of-type(4) {
         border: 1px solid white;
-        border-radius: 30px;
+        border-radius: 20px;
     }
 
 /* Mobile menu style*/
@@ -24,6 +24,10 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
+    }
+
+    header form {
+        left: 50px;
     }
 
     header form h1 {

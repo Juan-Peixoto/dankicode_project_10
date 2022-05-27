@@ -17,6 +17,7 @@
   <link rel="stylesheet" href="./css/classes.css">
   <link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/media.css">
 
   <script defer type="module" src="./js/main.js"></script>
   
@@ -30,7 +31,7 @@
 
 <!-- DESKTOP MENU -->
 
-      <nav class="menu desktop_menu w100 padd-30 flex flex-align-center flex-space-between fl">
+      <nav class="menu desktop_menu w100 flex flex-align-center flex-space-between padd-t-30">
 
         <img class="logo pos-relative" src="./images/logo.png" alt="Dankicode Logo">
 
@@ -39,7 +40,7 @@
           <li class="desktop_menu_option marg-lr-20"><a class="link white" href="#">Sobre</a></li>
           <li class="desktop_menu_option marg-lr-20"><a class="link white" href="#">Serviços</a></li>
           <li class="desktop_menu_option marg-lr-20"><a class="link white" href="#">Contato</a></li>
-          <li class="desktop_menu_option padd-5 marg-lr-20"><a class="link white" href="#">Quero um orçamento</a></li>
+          <li class="desktop_menu_option padd-5 marg-l-20"><a class="link white" href="#">Quero um orçamento</a></li>
 
         </ul>
 
@@ -47,9 +48,13 @@
 
 <!-- MOBILE MENU -->
 
-      <nav class="menu mobile_menu w100 flex-align-center flex-justify-center flex-column">
+      <nav class="menu mobile_menu w100 flex-align-center flex-space-between padd-t-30">
         
-        <ul class="mobile_menu_list">
+        <img class="logo pos-relative" src="./images/logo.png" alt="Dankicode Logo">
+
+        <div class="mobile_menu_button pos-relative"></div>
+
+        <ul class="mobile_menu_list pos-absolute">
 
           <li class="desktop_menu_option"><a class="link white padd-lr-10" href="#">Sobre</a></li>
           <li class="desktop_menu_option"><a class="link white padd-lr-10" href="#">Serviços</a></li>
@@ -61,15 +66,15 @@
       </nav>
 
 
-      <form class="test-1 h-fit w-fit float-left pos-relative clear" action="">
+      <form class="h-fit w-fit float-left pos-relative padd-10 flex-align-center flex-justify-center flex-column" action="">
 
-        <h1 class="white font-40">Você vendendo mais com automação Web.</h1>
+        <h1 class="white font-40 marg-b-20">Você vendendo mais com automação Web.</h1>
   
-        <p class="white font-20">Nós criamos soluções de marketing para sua empresa vender mais, da melhor forma!</p>
+        <p class="white marg-b-20">Nós criamos soluções de marketing para sua empresa vender mais, da melhor forma!</p>
   
-        <input type="email" name="" id="" placeholder="Seu melhor Email...">
+        <input class="input-email padd-l-10 marg-b-20" type="email" name="" id="" placeholder="Seu melhor Email..." required>
   
-        <button type="submit">Quero saber mais!</button>
+        <button class="button padd-10 white bg-orange" type="submit">Quero saber mais!</button>
   
       </form>
 

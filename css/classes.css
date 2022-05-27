@@ -65,6 +65,10 @@
         padding: 30px;
     }
 
+    .padd-t-30 {
+        padding-top: 30px;
+    }
+
     .padd-l-5 {
         padding-left: 5px;
     }
@@ -123,7 +127,11 @@
         margin-left: 10px;
     }
 
-    .marg-l-10 {
+    .marg-l-20 {
+        margin-left: 10px;
+    }
+
+    .marg-r-10 {
         margin-right: 10px;
     }
 
@@ -241,4 +249,37 @@
         background-color: white;
     }
 
+    .bg-orange {
+        background-color: #FF5F27;
+    }
+
 /* Extra Classes*/
+
+    .logo {
+        left: 50px;
+    }
+
+    .input-email {
+        height: 40px;
+        width: 300px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .button {
+        height: 40px;
+        width: 200px;
+        border: none;
+        border-radius: 20px;
+    }
+
+    .mobile_menu_button {
+        height: 40px;
+        width: 40px;
+        cursor: pointer;
+        background-image: url(../images/barra-de-menu.png);
+        background-position: center center;
+        background-size: contain;
+        background-repeat: no-repeat;
+        right: 50px;
+    }
