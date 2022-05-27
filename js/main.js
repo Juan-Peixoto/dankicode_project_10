@@ -1,3 +1,5 @@
-import sayHelloMessage from "./functions.js";
+import menuMobile from "./functions.js";
 
-console.log("Hello world!");
+const mobileButton = document.getElementById('mobile-button');
+
+mobileButton.onclick = menuMobile;

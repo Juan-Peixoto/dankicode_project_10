@@ -12,13 +12,6 @@
         display: flex;
     }
 
-/* Prepare mobile menu on small screens */
-
-    header > nav.mobile_menu > ul {
-        height: 0;
-        overflow: hidden;
-    }
-
 /* Fixed header form position on small screens */
 
     header > form.h-fit {
