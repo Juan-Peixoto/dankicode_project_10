@@ -1,6 +1,10 @@
-function sayHelloMessage () {
-    alert('Hello!')
+function menuMobile() {
+
+    let mobileList = document.getElementById('mobile-list');
+
+    mobileList.classList.toggle("menu-on");
+
 }
 
 
-export default sayHelloMessage;
+export default menuMobile;

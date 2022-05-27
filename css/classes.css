@@ -69,6 +69,10 @@
         padding-top: 30px;
     }
 
+    .padd-t-150 {
+        padding-top: 80px;
+    }
+
     .padd-l-5 {
         padding-left: 5px;
     }
@@ -167,6 +171,10 @@
 
     .flex-space-between {
         justify-content: space-between;
+    }
+
+    .flex-space-evenly {
+        justify-content: space-evenly;
     }
 
     .inline-block {
@@ -282,4 +290,8 @@
         background-size: contain;
         background-repeat: no-repeat;
         right: 50px;
+    }
+
+    .menu-on {
+        height: 300px !important;
     }
