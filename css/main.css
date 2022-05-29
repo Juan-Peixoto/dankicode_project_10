@@ -42,8 +42,13 @@
 
 /* Main style*/
 
-    main {
+    main section.introduction p {
+        max-width: 750px;
+    }
 
+    main > section.test-1 {
+        height: 300px;
+        width: 100%;
     }
 
 /* Footer style*/

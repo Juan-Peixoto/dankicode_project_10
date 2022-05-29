@@ -73,6 +73,10 @@
         padding-top: 80px;
     }
 
+    .padd-tb-30 {
+        padding: 30px 0px;
+    }
+
     .padd-l-5 {
         padding-left: 5px;
     }
@@ -215,7 +219,7 @@
         clear: both;
     }
 
-/* Text Classes*/
+/* Text font size Classes*/
 
     .font-20 {
         font-size: 20px;
@@ -235,6 +239,20 @@
 
     .font-2em {
         font-size: 2em;
+    }
+
+/* Text Style Classes*/
+
+    .bold {
+        font-weight: bold;
+    }
+
+    .text-center {
+        text-align: center;
+    }
+
+    .text-justify {
+        text-align: justify;
     }
 
 /* Text Color Classes*/
