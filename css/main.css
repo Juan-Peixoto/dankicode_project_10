@@ -41,16 +41,20 @@
 
 /* Main style*/
 
-    main section.introduction p {
-        max-width: 750px;
-    }
-
     main > section.test-1 {
         height: 300px;
         width: 100%;
     }
 
-    main section.complement div {
+/* Section introduction style*/
+
+    section.introduction p {
+        max-width: 750px;
+    }
+
+/* Section complement style*/
+
+    section.complement div {
         max-width: 550px;
     }
 
@@ -60,6 +64,27 @@
 
     .rancho-print {
         min-width: 50px;
+    }
+
+/* Section quote style*/
+
+    section.quote {
+        background-image: url(../images/bg2.jpg);
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 380px;
+        max-width: 980px;
+        border-radius: 30px;
+    }
+
+    section.quote div {
+        max-width: 500px;
+        right: -30px;
+        top: 50%;
+        height: 250px;
+        border-radius: 30px;
+        box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.521);
     }
 
 /* Footer style*/

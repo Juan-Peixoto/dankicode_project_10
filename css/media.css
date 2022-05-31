@@ -33,4 +33,17 @@
         right: 10px;
     }
 
+/* Fixed section quote style on small screens */
+
+    main > section.quote {
+        border-radius: 0;
+        display: flex;
+    }
+
+    main > section.quote > div {
+        position: initial;
+        border-radius: 0;
+        opacity: 0.75;
+    }
+
 }
