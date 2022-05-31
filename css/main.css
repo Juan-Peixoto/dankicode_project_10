@@ -12,7 +12,6 @@
 /* Mobile menu style*/
 
     nav.mobile_menu ul{
-
         z-index: -1;
         height: 0px;
         overflow: hidden;
@@ -49,6 +48,18 @@
     main > section.test-1 {
         height: 300px;
         width: 100%;
+    }
+
+    main section.complement div {
+        max-width: 550px;
+    }
+
+    section.complement div p {
+        max-width: 500px;
+    }
+
+    .rancho-print {
+        min-width: 50px;
     }
 
 /* Footer style*/
