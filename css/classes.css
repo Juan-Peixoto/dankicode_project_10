@@ -126,6 +126,10 @@
     .marg-b-20 {
         margin-bottom: 20px;
     }
+    
+    .marg-tb-30 {
+        margin: 30px 0px;
+    }
 
     .marg-l-5 {
         margin-left: 5px;
@@ -145,6 +149,11 @@
 
     .marg-r-10 {
         margin-right: 10px;
+    }
+
+    .marg-lr-auto {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .marg-lr-5 {
@@ -220,7 +229,7 @@
     }
 
     .float-right {
-        float: left;
+        float: right;
     }
 
     .clear {
@@ -261,6 +270,10 @@
 
     .text-justify {
         text-align: justify;
+    }
+
+    .line-h-27 {
+        line-height: 27px;
     }
 
 /* Text Color Classes*/
