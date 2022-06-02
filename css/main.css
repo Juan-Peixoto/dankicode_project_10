@@ -108,21 +108,6 @@
         height: 450px;
     }
 
-    .input {
-        border: 1px solid rgba(0, 0, 0, 0.11);
-        border-radius: 20px;
-        width: 70%;
-        min-width: 350px;
-    }
-
-    .input::placeholder {
-        color: rgba(0, 0, 0, 0.377);
-    }
-
-    .input:focus {
-        border: 1px solid black;
-    }
-
     textarea {
         resize: none;
     }
@@ -130,5 +115,14 @@
 /* Footer style*/
 
     footer {
+        border-top: 2px dashed rgba(0, 0, 0, 0.137);
+    }
 
+    footer div {
+        border: 2px dashed rgba(0, 0, 0, 0.123);
+        border-radius: 30px;
+    }
+
+    div.footer-div {
+        width: 300px;
     }
